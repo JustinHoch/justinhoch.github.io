@@ -9,31 +9,30 @@ navbar_entries:
     url: about
 
 project_entries:
-  - title: Project Test
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Film Search
+    url: https://github.com/JustinHoch/film-search
+    desc: This is a practice project I created to help me understand React and using API's better. It utilizes TMDB (The Movie Database) API to search for movies, TV shows, actors, and more.
+    highlight: NEW
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: My Blog -react
+    url: https://github.com/JustinHoch/my-blog-react
+    desc: I created this project by following a tutorial on LinkedIn by Shaun Wassel. It uses React, Express, and MongoDB. 
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: PHP Discussion
+    url: https://github.com/JustinHoch/PHP-Discussion
+    desc: This project was a modified version of another project. It uses PHP and MySql to allow users to sign in, post, and comment.
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: asgn11-members
+    url: https://github.com/JustinHoch/asgn11-members
+    desc: This is a school project that uses PHP and MySql to allow users and administrators to sign in, add data, and view other members.
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: asgn06-names
+    url: https://github.com/JustinHoch/asgn06-names
+    desc: A fun school project that uses PHP to parse through a very large list of names in a text file. It was a great way to explore how to use a programming language to read, sort, and manipulate data.
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: React Task Tracker
+    url: https://github.com/JustinHoch/react-task-tracker
+    desc: I created this project by following a tutorial by Brad Traversy. It uses react to create a simple task tracker and persist data to MongoDB
 
 old_project_entries:
   - title: Soopr
