@@ -1,6 +1,10 @@
 {% if site.posts.size > 0 %}
+
+  <!-- In order to sort post with the newest first, assign the posts to a new variable and sortby date in reverse -->
+  {% assign sorted = site.posts | sort: 'date' | reverse %}
+
   <ul>
-    {% for post in site.posts limit:3 %}
+    {% for post in sorted limit:3 %}
         <li class="post-list-item">
           <span class="home-date">
             {{ post.date | date: site.theme_config.date_format }}»
