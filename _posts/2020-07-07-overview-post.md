@@ -70,7 +70,11 @@ Now a table:
 
 ## Images
 
-![theme logo](../assets/images/lighthouse-report.png)
+Image without sizing:
+![Sample Image](../assets/images/lighthouse-report.png)
+
+Image with width set to 50%
+![Sample Image](../assets/images/lighthouse-report.png){:width="50%"}
 
 This is an image[^4]
 
